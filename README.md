@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Karasal İklim</title>
+  <title>Karasal İklim Ve Biyomları</title>
   <style>
     /* Genel stil */
     body {
@@ -125,7 +125,7 @@
 <body>
 
 <header>
-  <h1>Karasal İklim</h1>
+  <h1>Karasal İklim Ve Biyomları</h1>
 </header>
 
 <nav>
