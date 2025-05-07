@@ -9,41 +9,41 @@
       font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
-      background: #e6f7ff;
-      color: #333;
+      background: #2c3e50; /* Koyu mavi arka plan */
+      color: #fff; /* Beyaz metin */
       line-height: 1.6;
     }
 
     /* Başlık kısmı */
     header {
-      background: #0066cc;
-      color: white;
+      background: #2c3e50; /* Koyu mavi */
+      color: #f39c12; /* Altın sarısı */
       text-align: center;
-      padding: 40px 0;
-      font-size: 2.5rem;
-      border-bottom: 5px solid #004d99;
+      padding: 30px 0;
+      font-size: 2.2rem; /* Başlık boyutu */
+      font-weight: bold;
+      border-bottom: 4px solid #f39c12; /* Başlık altı için altın sarısı çizgi */
     }
 
     header h1 {
       margin: 0;
-      font-weight: bold;
     }
 
     /* Menü kısmı */
     nav {
-      background: #004d99;
+      background: #34495e; /* Koyu gri-mavi ton */
       display: flex;
       justify-content: center;
-      padding: 10px 0;
+      padding: 12px 0;
     }
 
     nav a {
-      color: white;
+      color: #f39c12; /* Altın sarısı yazı */
       padding: 14px 20px;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: bold;
-      border-right: 2px solid #3a74cc;
+      border-right: 2px solid #f39c12; /* Menü öğeleri arasında ince altın sarısı çizgi */
     }
 
     nav a:last-child {
@@ -51,7 +51,8 @@
     }
 
     nav a:hover {
-      background: #3399ff;
+      background: #f39c12; /* Altın sarısı arka plan */
+      color: #fff;
       transition: 0.3s;
     }
 
@@ -59,7 +60,7 @@
     section {
       padding: 30px;
       margin: 20px;
-      background: white;
+      background: #34495e; /* Koyu gri-mavi ton */
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       display: none;
@@ -71,7 +72,7 @@
 
     /* Başlıklar */
     section h2 {
-      color: #004d99;
+      color: #f39c12; /* Altın sarısı başlık */
       font-size: 2rem;
       text-align: center;
     }
@@ -81,6 +82,7 @@
       font-size: 1.1rem;
       text-align: justify;
       line-height: 1.8;
+      color: #ecf0f1; /* Açık gri beyaz metin */
     }
 
     img {
@@ -105,18 +107,6 @@
 
     #foto img {
       margin: 15px;
-    }
-
-    /* Genel stil */
-    footer {
-      background: #0066cc;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      font-size: 0.9rem;
     }
 
   </style>
@@ -167,9 +157,6 @@
     <img src="karasal_hayvan2.jpg" alt="Hayvan 2">
   </div>
 </section>
-
-<footer>
-</footer>
 
 <script>
   function showSection(id) {
